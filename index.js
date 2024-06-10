@@ -27,7 +27,7 @@ document.querySelectorAll(".btn")[i].addEventListener("click",function() {
             string=Math.sqrt(string);
             document.querySelector("input").value=string;
         }
-        else if(this.innerHTML==="DEL"){
+        else if(this.innerHTML=="DEL"){
             string=string.slice(0,-1);
             document.querySelector("input").value=string;
         }
